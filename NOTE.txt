@@ -1,0 +1,5 @@
+Folders you still need to copy in from your original tutorial project:
+  public/styles/   (all your CSS)
+  public/images/   (all product/icon images)
+
+Everything else (HTML, JS, and the backend) is already wired up and in place.
