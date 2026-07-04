@@ -154,8 +154,8 @@ app.get('/orders/:orderId', (req, res) => {
 
 // ----------------- HEALTH -----------------
 
-app.get('/api', (req, res) => {
-  res.send('Amazon clone backend is running.');
+app.get('/', (req, res) => {
+  res.redirect('/amazon.html');
 });
 
 app.listen(PORT, () => {
